@@ -24,8 +24,9 @@
 
 ## Usage
 
-1. Put all shapefile (`.shp`, `.cpg`, `.dbf`, `.pfj` and `.shx`) input inside the **shapefiles/** directory. 
-2. Run the npm script.  
+1. Create an INPUT directory named **"shapefiles"** inside the project's root directory. Put all shapefile (`.shp`, `.cpg`, `.dbf`, `.pfj` and `.shx`) input inside it.
+2. Create an OUTPUT directory named **"formatted"** inside the project's root directory.
+3. Run the npm script.  
 `npm run start`
 3. Wait for the simplification process to finish. Simplified files will be generated in the **formatted/** directory.
 

@@ -1,3 +1,4 @@
+require('dotenv').config()
 const mapshaper = require('mapshaper')
 const path = require('path')
 
