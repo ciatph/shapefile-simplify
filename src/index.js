@@ -6,7 +6,7 @@ const inputPath = path.join(__dirname, '..', 'shapefiles')
 const outputPath = path.join(__dirname, '..', 'formatted')
 
 // Mapshaper cli command
-const cliCommand = `-i ${inputPath}/*.shp 
+const cliCommand = `-i ${inputPath}/*.geojson 
   -simplify ${process.env.PERCENTAGE} keep-shapes 
   -o ${outputPath}/ format=${process.env.OUTPUT_FORMAT}`
 
