@@ -19,7 +19,7 @@
 2. Install dependencies.  
 `npm install`
 3. Create a **.env** file from the **.env.example** file. Update its defined variables in accordance with your personnal [mapshaper cli command reference](https://github.com/mbloch/mapshaper/wiki/Command-Reference) settings.
-   - `PERCENTAGE` - percentage removable points to retain
+   - `PERCENTAGE` - percentage of removable points to retain
    - `INPUT_FORMAT` - input file format (i.e., `.shp` for shapefile, `.`geojson` for GeoJSON)
    - `OUTPUT_FORMAT` - file format of the simplified  (i.e., `shapefile` for Shapefiles and `geojson` from GeoJSON)
    - The example **.env** file below will create a (highly) simplified GeoJSON file from a (hi-resolution) shapefile:  
