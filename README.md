@@ -15,6 +15,7 @@ The following dependencies are used for this project. Feel free to use other dep
 3. NodeJS
    - node version 10.16.3
    - npm v6.9.0
+   - *(installed via nvm)*
    
 ### Core Libraries and Frameworks
 
